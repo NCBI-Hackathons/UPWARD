@@ -42,7 +42,7 @@ HIPPA compliance is satisfied by:
 
 *Operation*
 
-  **Requirements:** The only requirement to build this system is having [Docker](https://docs.docker.com/install/) and[Docker Compose](https://docs.docker.com/compose/install/) installed on your machine.
+  **Requirements:** The only requirement to build this system is having [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine.
   
   **Running:**
   
@@ -54,7 +54,7 @@ HIPPA compliance is satisfied by:
 
 ### Results:
 
-[You can help](http://www.raysjianglab.org/DDDD.php)
+[DDD Website: You can help](http://www.raysjianglab.org/DDDD.php)
 
 ### Members:
 Rays Jiang - [ray-jiang](https://github.com/ray-jiang) - Jiang2@health.usf.edu 
