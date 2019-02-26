@@ -1,0 +1,10 @@
+#23 and me
+
+awk '{ print $2 }' ironhack.txt > x.xvg
+
+tr , \\n < x.xvg > edit_ironhack.txt
+
+#Ancestry.com
+awk '{ print $2 }' ancestry.txt > x.xvg
+
+sed -e "s/(.)//g" < x.xvg > edited_ancestry.txt
