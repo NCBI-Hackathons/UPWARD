@@ -17,12 +17,18 @@ To build a database of pathogenic or likely pathogenic SNPs we have sourced Ance
 # Results:
 
 # Members:
-Rays Jiang - Jiang2@health.usf.edu 
+Rays Jiang - Jiang2@health.usf.edu
+
 Renee Fonseca - fonsecarenee1@gmail.com
-Minch Pham - minhpham@mail.usf.edu 
-Deborah Cragun - dcragun@health.usf.edu 
+
+Minch Pham - minhpham@mail.usf.edu
+
+Deborah Cragun - dcragun@health.usf.edu
+
 Luis Tañon Reyes - luistanon@mail.usf.edu
+
 Alex Dean - daviddean@health.usf.edu
+
 Krishna Sharma - sharmak@mail.usf.edu
 
 # Documentation:
