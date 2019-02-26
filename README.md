@@ -24,6 +24,9 @@ Collecting the experiences of people who are identified from the general populat
 One possible way to recruit these individuals would be to add a link to the research database (and study consent) on SNPedia for each of the pathogenic variants of interest. To our knowledge, nobody has tried to recruit in this fashion and it may work because people who use these databases to interpret their raw data are likely to be interested in additional information and therefore may be willing to participate in research studies.
 
 ### Methods:
+
+![flowchart](https://github.com/NCBI-Hackathons/Community_PhenGen/blob/master/DDDDD.png)
+
 *Implementation*
 
 To build a database of pathogenic or likely pathogenic SNPs we have sourced Ancestry and 23andMe data (Illumina OmniExpress & Illumina GSA microarray chips) and compared to NCBI ClinVar entries to yeild an output of Porphyria genes and their associated rsid, the SNP location, and level of pathogenicity. This will be combined with a database containing phenotype, genetic and symptom information of people with Porphyria and their family to try to capture data on asymptomatic people.
