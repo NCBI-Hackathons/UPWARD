@@ -1,0 +1,7 @@
+db.porphyria.drop();
+db.porphyria.insert(
+	[
+		{
+			"success": true
+		}
+	])

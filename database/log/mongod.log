@@ -1,0 +1,16 @@
+2019-02-26T14:23:51.242+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-02-26T14:23:51.246+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] MongoDB starting : pid=68 port=27017 dbpath=/data/db 64-bit host=feb84842e1a7
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] db version v4.0.6
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] modules: none
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] build environment:
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] options: { systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log" } }
+2019-02-26T14:23:51.251+0000 E STORAGE  [initandlisten] Failed to set up listener: SocketException: Address already in use
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] now exiting
+2019-02-26T14:23:51.251+0000 I CONTROL  [initandlisten] shutting down with code:48
