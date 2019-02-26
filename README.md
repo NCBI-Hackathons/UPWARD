@@ -46,11 +46,11 @@ HIPPA compliance is satisfied by:
   
   **Running:**
   
-  Then clone this repository: `git clone https://github.com/NCBI-Hackathons/Community_PhenGen`
+  - clone this repository: `git clone https://github.com/NCBI-Hackathons/Community_PhenGen`
   
-  And start Docker containers: `cd Community_PhenGen && sudo docker-compose up`
+  - And start Docker containers: `cd Community_PhenGen && sudo docker-compose up`
   
-  In order to change security settings for the database, you need to change [these lines](https://github.com/NCBI-Hackathons/Community_PhenGen/blob/f6c0638d409b9ab5619b2db9961c84d259fc5c62/docker-compose.yml#L13-L15) from the source code.
+  - In order to change security settings for the database, you need to change [these lines](https://github.com/NCBI-Hackathons/Community_PhenGen/blob/f6c0638d409b9ab5619b2db9961c84d259fc5c62/docker-compose.yml#L13-L15) from the source code.
 
 ### Results:
 
