@@ -1,5 +1,12 @@
 # Community Phen Gen
 
+*Table of Contents*
+[**Background**](https://github.com/NCBI-Hackathons/Community_PhenGen#background)
+[**Methods**](https://github.com/NCBI-Hackathons/Community_PhenGen#methods)
+[**Results**](https://github.com/NCBI-Hackathons/Community_PhenGen#results)
+[**Members**](https://github.com/NCBI-Hackathons/Community_PhenGen#members)
+[**Documentation**](https://github.com/NCBI-Hackathons/Community_PhenGen#documentation)
+
 We are creating a program that will pull out all pathogenic or likely pathogenic SNPs that are currently included on the chips that are used for some common direct to consumer genetic/ancestry tests. This program can help us identify whether people who run their raw data through a database such as Promethease may find that they have a pathogenic or likely pathogenic SNP in any of the Porphyria genes. 
 
 Collecting the experiences of people who are identified from the general population in this fashion would be valuable to find out how they are following up with this information. Although most of these individuals will never develop symptoms (due to the low penetrance of these genes), it may prove useful to see if these individuals would enroll in future studies trying to compare those with latent and active porphyria in order to identify modifying genes and environmental factors that contribute to the phenotype. Furthermore, some of these results are expected to be false positives and this might allow the participants to access diagnostic testing and verify their genotype.
@@ -27,17 +34,17 @@ Our system currently consists of a cloud database built upon MongoDB Community E
 ### Results:
 
 ### Members:
-Rays Jiang - @ray-jiang - Jiang2@health.usf.edu 
+Rays Jiang - [ray-jiang](https://github.com/ray-jiang) - Jiang2@health.usf.edu 
 
-Renee Fonseca - @reneemf - fonsecarenee1@gmail.com
+Renee Fonseca - [reneemf](https://github.com/reneemf) - fonsecarenee1@gmail.com
 
-Minh Pham - @minhhpham - minhpham@mail.usf.edu 
+Minh Pham - [minhhpham](https://github.com/minhhpham) - minhpham@mail.usf.edu 
 
 Deborah Cragun - dcragun@health.usf.edu 
 
-Luis Tañon Reyes - @luistanonreyes - luistanon@mail.usf.edu
+Luis Tañon Reyes - luistanon@mail.usf.edu
 
-Alex Dean - daviddean@health.usf.edu
+Alex Dean - [deansmacked](https://github.com/deansmacked) - daviddean@health.usf.edu
 
 Krishna Sharma - sharmak@mail.usf.edu
 
