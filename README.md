@@ -37,6 +37,8 @@ We are collecting a healthy human population’s consumer genomics raw data into
 
 ### Results:
 
+[You can help](http://www.raysjianglab.org/DDDD.php)
+
 ### Members:
 Rays Jiang - [ray-jiang](https://github.com/ray-jiang) - Jiang2@health.usf.edu 
 
