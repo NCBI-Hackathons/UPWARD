@@ -1,6 +1,7 @@
 # Community Phen Gen
 
 *Table of Contents*
+
 [**Background**](https://github.com/NCBI-Hackathons/Community_PhenGen#background)
 [**Methods**](https://github.com/NCBI-Hackathons/Community_PhenGen#methods)
 [**Results**](https://github.com/NCBI-Hackathons/Community_PhenGen#results)
