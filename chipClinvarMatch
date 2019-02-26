@@ -1,0 +1,95 @@
+#########23andME data processing script
+#package that allows for R interactions with NCBI APIs
+library("rentrez")
+
+#take in CSV files, isolate the RsID column and turn it into a data frame
+rsids <- read.csv(file = "C:/Users/luist/Desktop/GSA-24v2-0_A1_b150_rsids.csv")
+RSID <- rsids$RsID
+RSIDD <- as.data.frame(RSID)
+
+library("tidyr")
+library("dplyr")
+
+#Separate RSID that have multiple values in one row and give them their own row separating by ","
+RSIDDD <- RSIDD %>%
+  mutate(RSID = strsplit(as.character(RSID),",")) %>%
+  unnest(RSID)
+
+#subset dataset to exclude rows with "."
+subID <- subset(RSIDDD, RSID != ".")
+
+#  ------ search fromm cliinvar --------
+
+subID$g37 = subID$loc37 = subID$g38 = subID$loc38 = NA
+
+
+for (row in 1:nrow(subID)){
+  i = subID$RSID[row]
+  cat("\n i: ", i, " row ", row," ")
+  result = entrez_search(db = "clinvar", term = i)
+  if (length(result$ids) > 0){
+      id = result$ids
+      summary = entrez_summary(db = "clinvar", id = id)
+      if (!is.null(summary$variation_set$variation_loc)){
+        g38 = summary$variation_set$variation_loc[[1]]$start[1]
+        g37 = summary$variation_set$variation_loc[[1]]$start[2]
+        chr38 = summary$variation_set$variation_loc[[1]]$chr[1]
+        chr37 = summary$variation_set$variation_loc[[1]]$chr[2]
+      }
+      if (length(result$ids) > 1) {
+        cat("multiple records found")
+      }
+      subID$g37[row] = g37
+      subID$loc37[row] = chr37
+      subID$g38[row] = g38
+      subID$loc38[row] = chr38
+  }
+}
+
+########## AncestryDNA processing script
+
+#package that allows for R interactions with NCBI APIs
+library("rentrez")
+library("tidyr")
+library("dplyr")
+
+#take in CSV files, isolate the RsID column and turn it into a data frame
+ancestrychipraw <- read.csv(file = "C:/Users/luist/Desktop/InfiniumOmniExpress-24v1-3_A1_b150_rsids.csv")
+ancestrychipid <- ancestrychipraw$RsID
+ancestrychipdf <- as.data.frame(ancestrychipid)
+
+#Separate RSID that have multiple values in one row and give them their own row separating by ","
+ANchip <- ancestrychipdf %>%
+  mutate(ancestrychipid = strsplit(as.character(ancestrychipid),",")) %>%
+  unnest(ancestrychipid)
+
+#subset dataset to exclude rows with "."
+ANchips <- subset(ANchip, ancestrychipid != ".")
+
+#  ------ search fromm clinvar --------
+
+ANchips$g37 = ANchips$loc37 = ANchips$g38 = ANchips$loc38 = NA
+
+
+for (row in 1:nrow(ANchips)){
+  i = ANchips$ancestrychipid[row]
+  cat("\n i: ", i, " row ", row," ")
+  result = entrez_search(db = "clinvar", term = i)
+  if (length(result$ids) > 0){
+    id = result$ids
+    summary = entrez_summary(db = "clinvar", id = id)
+    if (!is.null(summary$variation_set$variation_loc)){
+      g38 = summary$variation_set$variation_loc[[1]]$start[1]
+      g37 = summary$variation_set$variation_loc[[1]]$start[2]
+      chr38 = summary$variation_set$variation_loc[[1]]$chr[1]
+      chr37 = summary$variation_set$variation_loc[[1]]$chr[2]
+    }
+    if (length(result$ids) > 1) {
+      cat("multiple records found")
+    }
+    ANchips$g37[row] = g37
+    ANchips$loc37[row] = chr37
+    ANchips$g38[row] = g38
+    ANchips$loc38[row] = chr38
+  }
+}
