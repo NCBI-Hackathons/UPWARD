@@ -2,11 +2,11 @@
 
 *Table of Contents*
 
-[**Background**](https://github.com/NCBI-Hackathons/Community_PhenGen#background)
-[**Methods**](https://github.com/NCBI-Hackathons/Community_PhenGen#methods)
-[**Results**](https://github.com/NCBI-Hackathons/Community_PhenGen#results)
-[**Members**](https://github.com/NCBI-Hackathons/Community_PhenGen#members)
-[**Documentation**](https://github.com/NCBI-Hackathons/Community_PhenGen#documentation)
+1. [**Background**](https://github.com/NCBI-Hackathons/Community_PhenGen#background)
+2. [**Methods**](https://github.com/NCBI-Hackathons/Community_PhenGen#methods)
+3. [**Results**](https://github.com/NCBI-Hackathons/Community_PhenGen#results)
+4. [**Members**](https://github.com/NCBI-Hackathons/Community_PhenGen#members)
+5. [**Documentation**](https://github.com/NCBI-Hackathons/Community_PhenGen#documentation)
 
 We are creating a program that will pull out all pathogenic or likely pathogenic SNPs that are currently included on the chips that are used for some common direct to consumer genetic/ancestry tests. This program can help us identify whether people who run their raw data through a database such as Promethease may find that they have a pathogenic or likely pathogenic SNP in any of the Porphyria genes. 
 
