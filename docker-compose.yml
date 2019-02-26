@@ -10,10 +10,10 @@ services:
       - ./database/log:/var/log/mongodb
       - ./database/seed-data:/seed-data
     environment:
-#      - MONGO_INITDB_ROOT_USERNAME=D4
-#      - MONGO_INITDB_ROOT_PASSWORD=ironhack
+      - MONGO_INITDB_ROOT_USERNAME=D4
+      - MONGO_INITDB_ROOT_PASSWORD=ironhack
       - MONGO_INITDB_DATABASE=porphyria
-#      - MONGO_LOG_DIR=/dev/null
+      - MONGO_LOG_DIR=/dev/null
     ports:
       - "127.0.0.1:27017:27017"
     #command: mongod --logpath /var/log/mongodb/mongod.log --logappend
