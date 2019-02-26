@@ -47,6 +47,6 @@ Luis Tañon Reyes - [luistanonreyes](https://github.com/luistanonreyes) - luista
 
 Alex Dean - [deansmacked](https://github.com/deansmacked) - daviddean@health.usf.edu
 
-Krishna Sharma - sharmak@mail.usf.edu
+Krishna Sharma - [ksharma1205](https://github.com/ksharma1205) - sharmak@mail.usf.edu
 
 ### Documentation:
