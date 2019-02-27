@@ -25,7 +25,7 @@ One possible way to recruit these individuals would be to add a link to the rese
 
 ### Methods:
 
-![flowchart](https://github.com/NCBI-Hackathons/Community_PhenGen/blob/master/DDDDD.png)
+![flowchart](https://github.com/NCBI-Hackathons/Community_PhenGen/blob/master/UPWARD.png)
 
 *Implementation*
 
@@ -54,7 +54,8 @@ HIPPA compliance is satisfied by:
 
 ### Results:
 
-[DDDDD Website: You can help](http://www.raysjianglab.org/DDDD.php)
+[UPWARD: Uniting People Working Against Rare Diseases](http://www.raysjianglab.org/DDDD.php)
+[Presentation: Learn more](https://docs.google.com/presentation/d/1AcBlLJ51WDNSG8RY25YOSZpFn9xUOBcb2t6nJCRqMwk/edit?usp=sharing)
 
 ### Members:
 Rays Jiang - [ray-jiang](https://github.com/ray-jiang) - Jiang2@health.usf.edu 
