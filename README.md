@@ -1,4 +1,4 @@
-# Community Phen Gen
+# UPWARD: Uniting People Working Against Rare Diseases
 
 *Table of Contents*
 
