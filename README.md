@@ -7,6 +7,7 @@
 3. [**Results**](https://github.com/NCBI-Hackathons/Community_PhenGen#results)
 4. [**Members**](https://github.com/NCBI-Hackathons/Community_PhenGen#members)
 5. [**Documentation**](https://github.com/NCBI-Hackathons/Community_PhenGen#documentation)
+[pathogenic SNPs.csv](https://github.com/NCBI-Hackathons/UPWARD/blob/master/pathogenic%20genes/pathogenic%20SNPs.csv)
 
 ### Background:
 Porphyria is a group of eight inherited genetic disorders that arise when the body is unable to synthesize heme used to transport oxygen throughout the body. This negatively affects the skin and/or nervous system causing symptoms including extreme abdominal and chest pain, skin blistering, vomiting, confusion, constipation, fever, high blood pressure, and possibly leading to paralysis, low blood sodium levels, and seizures.
